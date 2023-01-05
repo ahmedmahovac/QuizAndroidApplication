@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/StudioProjects/rma21p18735/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/User/StudioProjects/rma21p18735/app/src/main/res/layout/activity_upis_predmet.xml" value="0.20729166666666668" />
+        <entry key="..\:/Users/User/StudioProjects/rma21p18735/app/src/main/res/layout/element_layout_activity_main.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/User/StudioProjects/rma21p18735/app/src/main/res/layout/element_layout_kvizovi.xml" value="0.3101851851851852" />
+        <entry key="..\:/Users/User/StudioProjects/rma21p18735/app/src/main/res/layout/fragment_kvizovi.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/User/StudioProjects/rma21p18735/app/src/main/res/layout/fragment_pitanje.xml" value="0.25" />
+        <entry key="..\:/Users/User/StudioProjects/rma21p18735/app/src/main/res/layout/fragment_pokusaj.xml" value="0.25" />
+        <entry key="..\:/Users/User/StudioProjects/rma21p18735/app/src/main/res/layout/fragment_poruka.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/StudioProjects/rma21p18735/app/src/main/res/layout/fragment_upis_predmet.xml" value="0.22" />
+        <entry key="..\:/Users/User/StudioProjects/rma21p18735/app/src/main/res/layout/menu_item_questions_navigation.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/User/StudioProjects/rma21p18735/app/src/main/res/layout/my_spinner_item_layout.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/User/StudioProjects/rma21p18735/app/src/main/res/menu/bottom_navigation.xml" value="0.3625" />
+        <entry key="..\:/Users/User/StudioProjects/rma21p18735/app/src/main/res/menu/group.xml" value="0.20729166666666668" />
+        <entry key="..\:/Users/User/StudioProjects/rma21p18735/app/src/main/res/menu/menu_item_questions_nav.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/User/StudioProjects/rma21p18735/app/src/main/res/menu/navigation.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/StudioProjects/rma21p18735/app/src/main/res/menu/pitanja_navigation.xml" value="0.3625" />
+        <entry key="..\:/Users/User/StudioProjects/rma21p18735/app/src/main/res/menu/pokusaj_navigation.xml" value="0.20520833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

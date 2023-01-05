@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="5dp"
+    android:id="@+id/cardViewKviz"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/greengrey"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textViewSubject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="SUBJECT"
+            android:textSize="30sp"
+            android:textColor="@color/darkgrey"
+            />
+
+
+        <ImageView
+            android:id="@+id/imageViewIndicator"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:scaleType="centerCrop"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+             />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewSubject"
+            android:layout_centerHorizontal="true"
+            android:background="@color/grey"
+            android:padding="5dp"
+            >
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="18sp"
+                android:textColor="@color/darkgrey"
+                android:text="Name" />
+
+            <TextView
+                android:id="@+id/textViewDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewName"
+                android:layout_centerHorizontal="true"
+                android:textSize="18sp"
+                android:textColor="@color/darkgrey"
+                android:text="00.00.2000." />
+
+
+            <TextView
+                android:id="@+id/textViewDuration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewDate"
+                android:text="5 min"
+                android:textColor="@color/darkgrey"
+                android:textSize="18sp"
+                />
+
+
+            <TextView
+                android:id="@+id/textViewOsvojeniBodovi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewDate"
+                android:text=""
+                android:textColor="@color/darkgrey"
+                android:textSize="18sp"
+                android:layout_alignParentEnd="true"
+                />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

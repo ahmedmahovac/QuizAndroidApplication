@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/darkgrey"
+    android:padding="16dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/odabirGodina"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Spinner
+        android:id="@+id/odabirPredmet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/odabirGodina"
+        android:layout_centerHorizontal="true"
+         />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/odabirGrupa"
+        android:layout_below="@+id/odabirPredmet"
+        android:layout_centerHorizontal="true"
+        />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/dodajPredmetDugme"
+        android:text="@string/upisiMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        android:textColor="@color/black"
+        android:background="@color/greengrey"
+        />
+
+
+
+
+</RelativeLayout>
